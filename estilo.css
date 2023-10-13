@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.cabecalho{
+    background-image: url(trabalho.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+
+.cabecalho-principal{
+    margin: 110px auto 0;
+    width: 80%;
+    text-align: center;
+    color: black;
+}
+
+.cabecalho-principal h1{
+    font-size: 100px;
+    text-shadow: 5px 5px 5px brown;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.cabecalho nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.cabecalho nav a{
+    background-color: black;
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.cabecalho nav a:hover{
+    background-color: brown;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.list{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.list-item{
+    flex-basis: 280px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px brown;
+    background-image: url(thumb03.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item__imagem img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 120px;
+}
+
+.list-item__name{
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.list-item__action{
+    display: flex;
+    background-color: brown;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+footer{
+    color: white;
+    background-color: #6b6b68;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px black;
+}
